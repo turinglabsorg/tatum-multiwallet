@@ -1,0 +1,25 @@
+{
+  "name": "tatum-multiwallet",
+  "version": "1.0.0",
+  "description": "Tatum multiwallet using Scrypta Technology and Bitcoin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turinglabsorg/tatum-multiwallet.git"
+  },
+  "author": "turinglabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turinglabsorg/tatum-multiwallet/issues"
+  },
+  "homepage": "https://github.com/turinglabsorg/tatum-multiwallet#readme",
+  "dependencies": {
+    "@scrypta/core": "^2.9.0",
+    "@tatumio/tatum": "git+https://github.com/turinglabsorg/tatum-js.git",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
